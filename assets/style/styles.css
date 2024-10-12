@@ -1,0 +1,30 @@
+.heading2{
+    color: pink;
+}
+
+
+.bg-pink{
+    background-color: pink;
+}
+
+.change-color {
+    color:red;
+    }
+    
+    #blue-color{
+       color: blue;
+    }
+    
+    h5{
+       color: green;
+    }
+
+.myBgImage{
+
+    width: 500px ;
+    height: 500px;
+    background-color: #583a3a;
+    background-image: url(/assets/images/bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
