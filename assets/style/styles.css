@@ -36,6 +36,17 @@ h5 {
 /* lessons */
 
 
+input{
+    margin: 10px 0;
+}
+
+
+.btn{
+    border: 1px solid #a0a0a0;
+    padding: 5px 50px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+}
 .border {
     width: 200px;
     height: 200px;
