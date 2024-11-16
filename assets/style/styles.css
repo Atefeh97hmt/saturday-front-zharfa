@@ -95,3 +95,43 @@ input{
     padding: 50px 10px;
 
 }
+
+
+.static{
+    position: static;
+    border: 2px solid #7a0c0c;
+    padding: 10px;
+}
+
+.relative{
+    border: 2px solid #1c0c7a;
+    padding: 10px;
+    position: relative;
+    left: 50px;
+}
+
+.fixed{
+    border: 2px solid #7a710c;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+.absolute{
+
+    position: absolute;
+}
+
+
+.absolute2{
+    position: absolute;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: #a9a0dc;
+    padding: 10px;
+}
