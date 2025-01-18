@@ -51,10 +51,6 @@
     text-decoration: none;
   }
 
-.marketing{
-
-    padding: 0 100px;
-}
 
 
 .marketing-title{
@@ -134,11 +130,16 @@ margin: 15px;
 
 .footer{
   background-color: #263238;
+
+}
+
+.footer-container{
   display: flex;
   justify-content: space-between;
   padding: 20px 40px;
-  margin-top: 150px;
+  /* margin-top: 150px; */
   flex-wrap: wrap;
+
 }
 .copyright-text{
   font-size: 14px;
@@ -192,4 +193,53 @@ margin: 15px;
   height: 20px;
   right: 12px;
   top: 41px;
+}
+
+
+.container{
+  padding: 0 100px;
+}
+
+@media screen and (max-width:768px){
+
+  .container{
+    padding: 0 5px;
+  }
+
+.marketing-card{
+margin-bottom: 65px;
+}
+.readmore {
+  margin-top: 0px;
+}
+
+
+.marketing-card-des{
+
+  padding: 2px 20px;
+}
+
+}
+
+.upperfooter{
+  background-color: #F5F7FA;
+  text-align: center;
+  margin-top: 150px; 
+
+}
+
+.upperfooter h2{
+  font-size: 64px;
+  color: #263238;
+  margin-bottom: 10px;
+  line-height: 56px;
+}
+
+.upperfooter a{
+  background-color: #4CAF4F;
+  padding: 10px  30px;
+}
+
+.upperfooter a svg{
+  background-color: transparent!important;
 }
