@@ -243,3 +243,54 @@ margin-bottom: 65px;
 .upperfooter a svg{
   background-color: transparent!important;
 }
+
+
+.Helping{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dedede;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.Helping-des-maintitle-black{
+  color: #263238;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.Helping-des-maintitle-green{
+  color: #4CAF4F;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.Helping-des-content{
+  color: #263238;
+  font-size: 16px;
+}
+
+
+.Helping-cards{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.Helping-cards-singlecard{
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+}
+.Helping-cards-singlecard-title{
+  color: #263238;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.Helping-cards-singlecard svg{
+  margin-right: 20px;
+}
