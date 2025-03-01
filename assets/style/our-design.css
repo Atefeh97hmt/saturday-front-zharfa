@@ -65,7 +65,7 @@
 .marketing-des{
     color: #717171;
     font-size: 16px;
-    text-align: center;
+    text-align: center!important;
     width: 50%;
 }
 
