@@ -38,3 +38,11 @@ console.log(a ** b);
 // >
 // =>
 // =<
+
+var number = 7;
+if(number % 2 == 0)
+{
+console.log("this number is even")
+} else {
+    console.log("this number is odd")
+}
