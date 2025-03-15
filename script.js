@@ -81,3 +81,27 @@ case "panjshanbeh":
 
 }
 
+
+var grade = "D"
+ switch (grade){
+
+case "A":
+    console.log("your grade is perfect");
+    break;
+    case "B":
+        console.log("your grade is very good");
+        break;
+        case "c":
+            console.log("your grade is good");
+break;
+case "D":
+    console.log("your grade is not bad");
+    break;
+
+default:
+    console.log("your grade is reject");
+
+
+
+
+ }
