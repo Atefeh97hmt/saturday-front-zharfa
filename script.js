@@ -46,3 +46,19 @@ console.log("this number is even")
 } else {
     console.log("this number is odd")
 }
+
+
+var score = 65;
+ if(score>= 95){
+    console.log ("the score is A");
+ } else if (score >= 80){
+    console.log("the score is B");
+ } else if (score >= 70)
+{
+    console.log("the score is C");
+} else {
+    console.log("the score is reject")
+}
+
+
+
