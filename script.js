@@ -62,3 +62,22 @@ var score = 65;
 
 
 
+var day = "charshanbeh"
+switch (day){
+    case "shanbeh":
+        console.log("aval hafteh");
+break;
+case "yekshanbeh":
+    case "doshanbeh":
+        case "seshanbeh":
+            console.log("rooz hayeh kari");
+            break;
+case "panjshanbeh":
+    case "jomeh":
+        console.log("tatil")
+        break;
+        default:
+            console.log("na motabar");
+
+}
+
